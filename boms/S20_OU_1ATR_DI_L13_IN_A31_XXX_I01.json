@@ -1,0 +1,710 @@
+{
+	"firmware": [
+		{
+			"board": "MCPX2015-SMD",
+			"name": "P9000",
+			"version": "v0.0.4",
+			"repo": {
+				"url": "https://github.com/eca-automs/mcpx-firmware-parallel.git"
+			}
+		},
+		{
+			"board": "PER16B-SMD",
+			"name": "PEXPIO16",
+			"version": "v0.0.4",
+			"repo": {
+				"url": "https://github.com/eca-automs/mcpx-firmware-parallel.git"
+			}
+		}
+	],
+	"bomList": [
+		{
+			"sku": "TMK0.55",
+			"name": "TR1",
+			"description": "trasformatore 1",
+			"qty": 1
+		},
+		{
+			"sku": "TMK0.55",
+			"name": "TR2",
+			"description": "trasformatore 2",
+			"qty": 1
+		},
+		{
+			"sku": "tmr-6",
+			"name": "",
+			"description": "termorestringente",
+			"qty": 5
+		},
+		{
+			"sku": "MDR-20-12",
+			"name": "ALB",
+			"description": "alimentatore batteria allarme",
+			"qty": 1
+		},
+		{
+			"sku": "r4,7-2",
+			"name": "",
+			"description": "resistenza caricabatteria",
+			"qty": 1
+		},
+		{
+			"sku": "MDR-20-24",
+			"name": "AB1",
+			"description": "alimentatore 24VDC gruppo batterie",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo caricabatteria",
+			"qty": 1
+		},
+		{
+			"sku": "r4,7-2",
+			"name": "",
+			"description": "resistenza caricabatteria",
+			"qty": 1
+		},
+		{
+			"sku": "MDR-20-24",
+			"name": "AB2",
+			"description": "alimentatore 48VDC gruppo batterie",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo caricabatteria",
+			"qty": 1
+		},
+		{
+			"sku": "r4,7-2",
+			"name": "",
+			"description": "resistenza caricabatteria",
+			"qty": 1
+		},
+		{
+			"sku": "MDR-20-24",
+			"name": "AMC1",
+			"description": "alimentatore scheda mcpx",
+			"qty": 1
+		},
+		{
+			"sku": "FG20721",
+			"description": "batteria allarme L13(12VDC 7Ah)",
+			"qty": 1
+		},
+		{
+			"sku": "lm-batt",
+			"description": "fascetta di metallo portabatteria",
+			"qty": 28
+		},
+		{
+			"sku": "pb-4xb12v7ah",
+			"name": "",
+			"description": "portabatterie gruppo emergenza 48VDC",
+			"qty": 1
+		},
+		{
+			"sku": "stl",
+			"name": "",
+			"description": "staffa ad L per portabatterie"
+		},
+		{
+			"sku": "FG20721",
+			"description": "batteria gruppo batterie 48VDC (12VDC 7Ah)",
+			"qty": 4
+		},
+		{
+			"sku": "euro 4/35 43409",
+			"name": "",
+			"description": "morsetto piccolo per gruppo batterie",
+			"qty": 3
+		},
+		{
+			"sku": "euro stop 43442",
+			"name": "",
+			"description": "squadretta terminale per gruppo batterie",
+			"qty": 2
+		},
+		{
+			"sku": "euro s4 lh/35 43445 h",
+			"name": "F1-F2",
+			"description": "portafusibile rete",
+			"qty": 2
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "F1-F2",
+			"description": "fusibile 4A rete",
+			"qty": 2
+		},
+		{
+			"sku": "euro s4 lh/35 43445 h",
+			"name": "F3",
+			"description": "portafusibile manovra",
+			"qty": 1
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "F3",
+			"description": "fusibile 4A manovra",
+			"qty": 1
+		},
+		{
+			"sku": "euro s4 lh/35 43445 h",
+			"name": "F4",
+			"description": "portafusibile luminose",
+			"qty": 1
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "F4",
+			"description": "fusibile 4A luminose",
+			"qty": 1
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "F5-F6",
+			"description": "portafusibile 4A operatore porte trifase",
+			"qty": 2
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "F5-F6",
+			"description": "fusibile 4A operatore porte trifase",
+			"qty": 2
+		},
+		{
+			"sku": "euro s4 lh/35 43445 h",
+			"name": "F9",
+			"description": "portafusibile valvole centralina",
+			"qty": 1
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "F9",
+			"description": "fusibile 4A valvole centralina",
+			"qty": 1
+		},
+		{
+			"sku": "euro s4 lh/35 43445 h",
+			"name": "F10",
+			"description": "portafusibile 24VDC gruppo emergenza",
+			"qty": 1
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "F10",
+			"description": "fusibile 4A 24VDC gruppo emergenza",
+			"qty": 1
+		},
+		{
+			"sku": "euro s4 lh/35 43445 h",
+			"name": "F11",
+			"description": "portafusibile 48VDC portabatterie",
+			"qty": 1
+		},
+		{
+			"sku": "cf 521 263",
+			"name": "F11",
+			"description": "fusibile 6,3A 48VDC gruppo emergenza",
+			"qty": 1
+		},
+		{
+			"sku": "EP61C01",
+			"name": "VA",
+			"description": "valvola protezione manovra",
+			"qty": 1
+		},
+		{
+			"sku": "KBPC3510",
+			"name": "RD1",
+			"description": "raddrizzatore manovra",
+			"qty": 1
+		},
+		{
+			"sku": "KBPC3510",
+			"name": "RD2",
+			"description": "raddrizzatore luminose",
+			"qty": 1
+		},
+		{
+			"sku": "CL04D310MWG",
+			"name": "SAL",
+			"description": "teleruttore salita",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "CL04D310MWG",
+			"name": "P",
+			"description": "teleruttore potenziale",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "miup",
+			"name": "",
+			"description": "interruttore manovra normale/manutenzione",
+			"qty": 1
+		},
+		{
+			"sku": "202.06.MIAE4",
+			"name": "MIAE",
+			"description": "inverter alimentazione emergenza",
+			"qty": 1
+		},
+		{
+			"sku": "K8DS-PH1",
+			"name": "CFS",
+			"description": "relè controllo fasi",
+			"qty": 1
+		},
+		{
+			"sku": "MC2C310ATG",
+			"name": "DS1",
+			"description": "relè comando valvola discesa 1",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "MC2C310ATG",
+			"name": "DS2",
+			"description": "relè comando valvola discesa 2",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "MC2C310ATG",
+			"name": "PV",
+			"description": "relè comando valvola livellazione",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "MC2C310ATG",
+			"name": "AP",
+			"description": "relè comando apertura porte",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "MC2C310ATG",
+			"name": "CP",
+			"description": "relè comando chiusura porte",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "MMHO",
+			"name": "",
+			"description": "interblocco per relè comando porte",
+			"qty": 1
+		},
+		{
+			"sku": "MC2C301ATG",
+			"name": "RP",
+			"description": "relè comando pattino",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione pattino",
+			"qty": 1
+		},
+		{
+			"sku": "MCRC022ATWG",
+			"name": "X1",
+			"description": "",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "MCRC022ATWG",
+			"name": "X2",
+			"description": "",
+			"qty": 1
+		},
+		{
+			"sku": "1N5408 R0",
+			"name": "",
+			"description": "diodo protezione extratensione bobina",
+			"qty": 1
+		},
+		{
+			"sku": "G9SE-201",
+			"name": "RSS",
+			"description": "relè di sicurezza per zona porte aperte ripescaggio",
+			"qty": 1,
+			"lotNo": "05516M"
+		},
+		{
+			"sku": "BA3.S0",
+			"name": "A3",
+			"descrizione": "box per gestione emendamento A3",
+			"qty": 1,
+			"lotNo": ["PAT1500001", "PAT1500500"]
+		},
+		{
+			"sku": "MCPX2015-SMD",
+			"name": "mcpx2015",
+			"description": "scheda madre quadro",
+			"qty": 1,
+			"trackId": {
+				"active": true
+			}
+		},
+		{
+			"sku": "lcd20-4",
+			"name": "lcd",
+			"description": "schermo lcd 20x4 caratteri",
+			"qty": 1
+		},
+		{
+			"sku": "d-m3x20",
+			"name": "",
+			"description": "distanziatore m3x20 per schermo lcd",
+			"qty": 3
+		},
+		{
+			"sku": "b-m3",
+			"name": "",
+			"description": "bullone m3 per schermo lcd",
+			"qty": 3
+		},
+		{
+			"sku": "vm3x6",
+			"name": "",
+			"description": "viti m3x6 per schermo lcd",
+			"qty": 3
+		},
+		{
+			"sku": "cf1,5/4-ST-7,62",
+			"name": "",
+			"description": "connettore femmina 4 poli per scheda MCPX2015-SMD",
+			"qty": 2
+		},
+		{
+			"sku": "cf1,5/5-ST-3,81",
+			"name": "",
+			"description": "connettore femmina 5 poli per scheda MCPX2015-SMD",
+			"qty": 3
+		},
+		{
+			"sku": "cf1,5/8-ST-3,81",
+			"name": "",
+			"description": "connettore femmina 8 poli per scheda MCPX2015-SMD",
+			"qty": 7
+		},
+		{
+			"sku": "cf 521 201",
+			"name": "",
+			"description": "fusibile 1A per scheda MCPX2015-SMD",
+			"qty": 1
+		},
+		{
+			"sku": "rj45-0.25",
+			"name": "",
+			"description": "cavo tj45 collegamento scheda madre e periferica 16",
+			"qty": 1
+		},
+		{
+			"sku": "PER16B-SMD",
+			"name": "perif16",
+			"description": "periferica 16 (chiamate + posizione)",
+			"qty": 1,
+			"trackId": {
+				"active": true
+			}
+		},
+		{
+			"sku": "PER16R-SMD",
+			"name": "perif16R",
+			"description": "interfaccia relè periferica 16 (chiamate + posizione)",
+			"qty": 1
+		},
+		{
+			"sku": "cf1,5/2-ST-3,81",
+			"name": "",
+			"description": "connettore femmina 2 poli per scheda PER16B-SMD",
+			"qty": 1
+		},
+		{
+			"sku": "cf1,5/8-ST-3,81",
+			"name": "",
+			"description": "connettore femmina 8 poli per scheda PER16B-SMD",
+			"qty": 4
+		},
+		{
+			"sku": "cf 521 201",
+			"name": "",
+			"description": "fusibile 1A per scheda PER16R-SMD",
+			"qty": 1
+		},
+		{
+			"sku": "cd7",
+			"name": "",
+			"description": "canotto distanziale per scheda PER16B-SMD",
+			"qty": 4
+		},
+		{
+			"sku": "vm3x20",
+			"name": "",
+			"description": "vite m3x20 per scheda PER16B-SMD",
+			"qty": 4
+		},
+		{
+			"sku": "b-m3",
+			"name": "",
+			"description": "bullone m3 per scheda PER16B-SMD",
+			"qty": 4
+		},
+		{
+			"sku": "sdin",
+			"name": "",
+			"description": "supporto guida din per scheda PER16B-SMD",
+			"qty": 1
+		},
+		{
+			"sku": "L13",
+			"name": "L13",
+			"description": "scheda per gestione allarme L13",
+			"qty": 1
+		},
+		{
+			"sku": "cf1,5/8-ST-3,81",
+			"name": "",
+			"description": "connettore femmina 8 poli per scheda L13",
+			"qty": 1
+		},
+		{
+			"sku": "cf1,5/5-ST-3,81",
+			"name": "",
+			"description": "connettore femmina 5 poli per scheda L13",
+			"qty": 2
+		},
+		{
+			"sku": "cf 521 201",
+			"name": "",
+			"description": "fusibile 1A per scheda L13",
+			"qty": 1
+		},
+		{
+			"sku": "dist-p-sch",
+			"name": "",
+			"description": "distanziatore in plastica per scheda L13",
+			"qty": 3
+		},
+		{
+			"sku": "nfrc4x3",
+			"name": "",
+			"description": "filtro rc per motore porte trifase",
+			"qty": 1
+		},
+		{
+			"sku": "ECA-609030",
+			"name": "armadio",
+			"description": "armadio metallo",
+			"qty": 1
+		},
+		{
+			"sku": "ECA-609030p",
+			"name": "piastra",
+			"description": "piastra metallo",
+			"qty": 1
+		},
+		{
+			"sku": "cav",
+			"name": "",
+			"description": "cavallotto per guida din",
+			"qty": 2
+		},
+		{
+			"sku": "gri",
+			"name": "",
+			"description": "canalina e coperchio",
+			"qty": 432
+		},
+		{
+			"sku": "euro 10/35 43402",
+			"name": "",
+			"description": "morsetto grande potenza",
+			"qty": 6
+		},
+		{
+			"sku": "euro 10/35 43402",
+			"name": "",
+			"description": "morsetto grande TN",
+			"qty": 1
+		},
+		{
+			"sku": "euro 10/35 43402",
+			"name": "",
+			"description": "morsetto grande PE",
+			"qty": 1
+		},
+		{
+			"sku": "euro 10/35 43402",
+			"name": "",
+			"description": "morsetto grande CEV",
+			"qty": 1
+		},
+		{
+			"sku": "euro e 10/35 43458",
+			"name": "",
+			"description": "morsetto di terra",
+			"qty": 1
+		},
+		{
+			"sku": "euro stop 43442",
+			"name": "",
+			"description": "squadretta terminale",
+			"qty": 1
+		},
+		{
+			"sku": "113000000000",
+			"name": "",
+			"description": "supporto per bistabile FCS",
+			"qty": 1
+		},
+		{
+			"sku": "e637bcca0190zsn",
+			"name": "",
+			"description": "bistabile FCS",
+			"qty": 1
+		},
+		{
+			"sku": "113000000000",
+			"name": "",
+			"description": "supporto per bistabile FCD",
+			"qty": 1
+		},
+		{
+			"sku": "e637bcca0190zsn",
+			"name": "",
+			"description": "bistabile FCD",
+			"qty": 1
+		},
+		{
+			"sku": "c1212rqb0190s",
+			"name": "",
+			"description": "induttore IS",
+			"qty": 1
+		},
+		{
+			"sku": "c1212rqb0190s",
+			"name": "",
+			"description": "induttore ID",
+			"qty": 1
+		},
+		{
+			"sku": "c1231nda0190sh",
+			"name": "IP1-IP2",
+			"description": "induttore zona sicurezza ripescaggio",
+			"qty": 1
+		},
+		{
+			"sku": "101016",
+			"name": "",
+			"description": "led cabina al piano",
+			"qty": 1
+		},
+		{
+			"sku": "cf 521 204",
+			"name": "",
+			"description": "fusibile 4A di scorta",
+			"qty": 4
+		},
+		{
+			"sku": "cf 521 201",
+			"name": "",
+			"description": "fusibile 1A di scorta",
+			"qty": 4
+		},
+		{
+			"sku": "cf 521 263",
+			"name": "",
+			"description": "fusibile 6,3A di scorta",
+			"qty": 2
+		},
+		{
+			"sku": "112005000000",
+			"name": "",
+			"description": "guida supporto sensore magnetico",
+			"qty": 3
+		},
+		{
+			"sku": "111000000000",
+			"name": "",
+			"description": "supporto sensore magnetico",
+			"qty": 5
+		},
+		{
+			"sku": "1200kitex000",
+			"name": "",
+			"description": "staffa montaggio bistabili",
+			"qty": 2
+		},
+		{
+			"sku": "1200kitfx000",
+			"name": "",
+			"description": "kit fissaggio bistabili",
+			"qty": 2
+		},
+		{
+			"sku": "1200kitpm000",
+			"name": "",
+			"description": "supporto per montaggio bistabili",
+			"qty": 2
+		}
+	]
+}
