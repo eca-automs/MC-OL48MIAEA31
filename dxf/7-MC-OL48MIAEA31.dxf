@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-232.6792899408284
+232.7670047900817
  22
-150.2573964497041
+150.2958298112144
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-304.0295857988166
+308.7035784728092
  41
-1.680924855491329
+1.655474452554744
  42
 50
  43
@@ -24575,13 +24575,13 @@ standard
  44
 1
   0
-MTEXT
+LINE
   5
 31C
 100
 AcDbEntity
   8
-frame-title
+schematic
   6
 ByLayer
  62
@@ -24589,37 +24589,15 @@ ByLayer
 370
    -1
 100
-AcDbMText
+AcDbLine
  10
-303.3333339693398
+296
  20
-35
- 30
-0
- 40
-3
- 41
-50.91666603066081
- 71
-    1
- 72
-    1
-  1
-Schema: MC-OL48MIAEA31\PAutore: Belardi\PData: 01/16\PFoglio: 7 di 18
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
+190
+ 11
+296
+ 21
+160
   0
 LINE
   5
@@ -24637,30 +24615,6 @@ ByLayer
 100
 AcDbLine
  10
-296
- 20
-190
- 11
-296
- 21
-160
-  0
-LINE
-  5
-31E
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
 336
  20
 190
@@ -24671,7 +24625,7 @@ AcDbLine
   0
 MTEXT
   5
-31F
+31E
 100
 AcDbEntity
   8
@@ -24717,7 +24671,7 @@ standard
   0
 MTEXT
   5
-320
+31F
 100
 AcDbEntity
   8
@@ -24763,7 +24717,7 @@ standard
   0
 MTEXT
   5
-321
+320
 100
 AcDbEntity
   8
@@ -24809,7 +24763,7 @@ standard
   0
 MTEXT
   5
-322
+321
 100
 AcDbEntity
   8
@@ -24855,7 +24809,7 @@ standard
   0
 INSERT
   5
-323
+322
 100
 AcDbEntity
   8
@@ -24895,7 +24849,7 @@ mcp2014x-connector
   0
 INSERT
   5
-324
+323
 100
 AcDbEntity
   8
@@ -24935,7 +24889,7 @@ mcp2014x-connector
   0
 LINE
   5
-325
+324
 100
 AcDbEntity
   8
@@ -24956,6 +24910,30 @@ AcDbLine
 325
  21
 160
+  0
+LINE
+  5
+325
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+325
+ 20
+160
+ 11
+325
+ 21
+190
   0
 LINE
   5
@@ -24975,9 +24953,9 @@ AcDbLine
  10
 325
  20
-160
+190
  11
-325
+296
  21
 190
   0
@@ -24997,13 +24975,13 @@ ByLayer
 100
 AcDbLine
  10
-325
+336
  20
-190
+160
  11
-296
+364
  21
-190
+160
   0
 LINE
   5
@@ -25021,13 +24999,13 @@ ByLayer
 100
 AcDbLine
  10
-336
+364
  20
 160
  11
 364
  21
-160
+190
   0
 LINE
   5
@@ -25047,30 +25025,6 @@ AcDbLine
  10
 364
  20
-160
- 11
-364
- 21
-190
-  0
-LINE
-  5
-32A
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-364
- 20
 190
  11
 336
@@ -25079,7 +25033,7 @@ AcDbLine
   0
 LINE
   5
-32B
+32A
 100
 AcDbEntity
   8
@@ -25103,7 +25057,7 @@ AcDbLine
   0
 INSERT
   5
-32C
+32B
 100
 AcDbEntity
   8
@@ -25143,7 +25097,7 @@ Terminal-Earth
   0
 LINE
   5
-32D
+32C
 100
 AcDbEntity
   8
@@ -25167,7 +25121,7 @@ AcDbLine
   0
 LINE
   5
-32E
+32D
 100
 AcDbEntity
   8
@@ -25191,7 +25145,7 @@ AcDbLine
   0
 INSERT
   5
-32F
+32E
 100
 AcDbEntity
   8
@@ -25231,7 +25185,7 @@ junction
   0
 LINE
   5
-330
+32F
 100
 AcDbEntity
   8
@@ -25255,7 +25209,7 @@ AcDbLine
   0
 INSERT
   5
-331
+330
 100
 AcDbEntity
   8
@@ -25295,7 +25249,7 @@ Terminal-Earth
   0
 INSERT
   5
-332
+331
 100
 AcDbEntity
   8
@@ -25332,6 +25286,52 @@ Terminal-Earth
 0.35
  45
 0.35
+  0
+MTEXT
+  5
+332
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+303.3333339693398
+ 20
+35
+ 30
+0
+ 40
+3
+ 41
+57.916666030661
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-OL48MIAEA31-06\PAutore: Belardi\PData: 01/16\PFoglio: 7 di 18
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
   0
 ENDSEC
   0
